@@ -1,0 +1,227 @@
+@import "@material/textfield/mdc-text-field";
+body {
+    font-family: 'Mitr', sans-serif;
+    background: #F3F3F3;
+}
+
+.center {
+    margin-top: 2%;
+    text-align: -webkit-center;
+}
+.navbar-custom {
+    padding-left: 8%;
+    padding-right: 8%;
+    font-size: 20px;
+    background-color: #ffffff;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    font-size: 30px;
+    color: #261667;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #707B89;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #555e68;
+}
+
+.indexText {
+    color: #261667;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.idForm {
+    width: 40%;
+    height: 180px;
+    background: white;
+    border-radius: 25px;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-right: 1%;
+}
+
+.relative {
+    position: relative;
+}
+
+span {
+    display: block;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.inputId {
+    width: 90%;
+    margin-top: 3%;
+}
+
+.formIdButton {
+    width: 20em;  
+    height: 3em;
+    margin-top: 4%;
+    background: #261667;
+    color: white;
+    border: 1px solid #261667;
+    border-radius: 25px;
+}
+
+.textIdForm {
+    font-size: 22px;
+}
+
+hr {
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.regisButton {
+    width: 40%;
+    height: 5em;
+    background: #261667;
+    border: 1px solid #261667;
+    border-radius: 80px;
+    color: white;
+    font-size: 20px;
+}
+
+.regisHead {
+    margin-top: 3%;
+    color: #261667;
+}
+
+.input-regis{
+    border: 2px solid #CCCCCC;
+    border-radius: 12px;
+    width: 90%;
+    padding: 12px;
+    font-size:16px;
+}
+  
+.input-text {
+    margin-top: 13px;
+    margin-right: 20px;
+}
+  
+.input {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 15px;
+}
+
+.submitRegis {
+    background: #261667;
+    width: 30%; 
+    height: 50px;
+    margin-top: 2%; 
+    margin-left: 38%;
+    margin-bottom: 2%;
+    color: white;
+    border: #261667 1px solid;
+    font-size: 20px;
+    border-radius: 25px;
+}
+
+.search {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.searchSelect {
+    margin-left: 2%;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.searchInput {
+    margin-left: 5%;
+    border: none;
+    border-radius: 25px;
+    padding-left: 5%;
+}
+
+.searchButton {
+    margin-left: 3%;
+    border: #261667 1px solid;
+    color: white;
+    background: #261667;
+    border-radius: 20px;
+}
+
+.addCourseButton {
+    width: 130px;
+    height: 60px;
+    margin-top: 1%;
+    color: white;
+    background: #261667;
+    border: #261667 1px solid;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.not {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.info {
+    padding: 2% 5% 2% 5%;
+    margin-top: 3%;
+    width: 100%;
+    height: 60%;
+    background: white;
+    border-radius: 25px;
+    margin-bottom: 3%;
+}
+
+.tableInfo {
+    margin-top: 3%;
+}
+
+.courseFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submitSubject {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: #261667;
+    border: 1px solid #261667;
+    border-radius: 25px;
+    margin-left: 20%;
+    font-size: 18px;
+}
+
+.submitCourse {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: #261667;
+    border: 1px solid #261667;
+    border-radius: 25px;
+    margin-left: 20%;
+    font-size: 18px;
+}
+
+.dropdown-toggle {
+    width: 600px;
+}
